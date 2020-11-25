@@ -28,8 +28,8 @@ with open('AdrianLawecki.png', 'rb') as byte_reader:
      print(byte_reader.read(1))
      print(byte_reader.read(1))- przeczytanie pliku nagłowkowego w png
   
-    a_writer.write('\nBeagle') - dodowanie nowje linii na koniec pliku
-    with open(d_path, 'r') as reader, open(d_r_path, 'w') as writer:
-    newLine = reader.readlines()
-    writer.writelines(reversed(newLine))  - połaczenie plików 
+a_writer.write('\nBeagle') - dodowanie nowje linii na koniec pliku
+with open(d_path, 'r') as reader, open(d_r_path, 'w') as writer:
+newLine = reader.readlines()
+writer.writelines(reversed(newLine))  - połaczenie plików 
     
