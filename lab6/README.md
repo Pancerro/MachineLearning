@@ -1,4 +1,4 @@
-open - służy do otwarcia pliku
+open - służy do otwarcia pliku </br>
 close - służy do zamkniecia pliku
 try:
 finally: - służą np. do zamkniecia pliku
