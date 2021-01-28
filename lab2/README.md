@@ -14,11 +14,4 @@
     <li> Uzywanie warunkow do wyswietlania tylko tych wartosc co spelnienia podane warunki za pomoca funkcjji loc[] </li>
   </ul>
 </div>
-#7 Wyswietlenei listy ssamochodow po cenie
-print(df.sort_values('cena'))
-#8 Wyswietlenie liczby samochodow nalezacych do danej marki
-print(df['marka'].value_counts())
-#9 wyswietenie listy tylko z kolumnami 1, 2 i 5
-print(df.iloc[:,[1,2,5]])
-#10 wyswietlenie marki wojowodztwa i ceny samochodw tanszych niz 1000
-print(df.loc[df['cena'] < 1000, ['marka','wojewodztwo','cena']])
+
